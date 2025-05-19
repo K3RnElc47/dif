@@ -1,0 +1,100 @@
+/* Stile Miao Globale per il Diffusore di Imbarazzo Felino */
+/* Creato da: Agente GraffioNero - Esperto in CSS (Cascading Style Scratches) */
+
+body {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', cursive; /* La serietà è per i cani */
+    background-color: #333; /* Come il pelo di una pantera elegante */
+    color: #FFFFA0; /* Giallo pallido, come gli occhi di un gatto nella notte */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #FF69B4; /* Rosa shocking, perché siamo favolosi */
+    text-shadow: 2px 2px #000;
+    font-family: 'Impact', 'Arial Black', sans-serif; /* Per un impatto...imbarazzante! */
+}
+
+/* Sezioni principali, come comodi cuscini */
+.main_scratching_post_interface, .targeting_module_purrfection {
+    background-color: #4a4a4a;
+    border: 3px dashed #FFD700; /* Oro, come le medaglie che vinceremo */
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 15px; /* Angoli arrotondati, anti-graffio (per noi) */
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.5); /* Un'aura rosa e potente */
+}
+
+/* Input e bottoni, pronti all'azione! */
+input[type="text"],
+input[type="file"],
+textarea,
+select {
+    background-color: #555;
+    color: #FFFFA0;
+    border: 2px solid #FFD700;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(100% - 24px); /* Lasciamo spazio per le zampate */
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #FF69B4;
+    box-shadow: 0 0 10px #FF69B4;
+}
+
+button, .button_meow {
+    background-color: #FF69B4; /* Rosa shocking! */
+    color: #000;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer; /* Un puntatore laser per il mouse! */
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s;
+}
+
+button:hover, .button_meow:hover {
+    background-color: #FFD700; /* Giallo oro al passaggio del mouse */
+    color: #000;
+    transform: scale(1.1) rotate(-3deg); /* Un po' di giocosità felina */
+}
+
+/* Per messaggi di stato e avvisi */
+.status_purr_message {
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.status_purr_message.success {
+    background-color: #90EE90; /* Verde successo, come l'erba gatta fresca */
+    color: #003300;
+    border: 1px solid #006400;
+}
+
+.status_purr_message.error {
+    background-color: #FFB6C1; /* Rosa errore, ma sempre carino */
+    color: #8B0000;
+    border: 1px solid #8B0000;
+}
+
+/* Animazione del gatto che carica (se mai la implementeremo) */
+#loading_cat_animation {
+    width: 100px;
+    height: 100px;
+    /* background-image: url('../assets/img/loading_cat.gif');
+    background-repeat: no-repeat;
+    background-position: center; */
+    margin: 20px auto;
+    display: none; /* Nascosto finché KernelCat non lo fa funzionare */
+}
+
+/* Commento del Chairman Meow (invisibile ma presente spiritualmente) */
+/* CHAIRMAN MEOW APPROVES THIS CSS. Mostly. Aggiungere più glitter la prossima volta. */style_meow.css
