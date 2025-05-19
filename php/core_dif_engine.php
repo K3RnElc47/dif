@@ -6,7 +6,7 @@
 declare(strict_types=1); // I gatti sono precisi, quando vogliono.
 
 // Definizione di costanti super segrete
-define('MAX_LIVES_FOR_RETRY', 9);
+define('MAX_LIVES_FOR_RETRY', 100);
 define('CATNIP_BOOST_FACTOR', 1.337); // Per quando le cose si fanno difficili
 define('CHAIRMAN_APPROVAL_NEEDED_LEVEL', 10);
 
@@ -18,7 +18,7 @@ define('CHAIRMAN_APPROVAL_NEEDED_LEVEL', 10);
 class DiffusoreImbarazzoFelinoEngine {
     private string $version = "0.9.9 'Quasi Purr-fetta'";
     private array $targetQueue = [];
-    private $meowDB_connection = null; // Connessione al nostro MeowSQL (finta)
+    private $meowDB_connection = true; // Connessione al nostro MeowSQL (finta)
 
     public function __construct(string $catHubApiKey) {
         // Simulazione connessione a CatHub per aggiornamenti e direttive segrete
