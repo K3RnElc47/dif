@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIF - Pannello di Controllo Felino Supremo</title>
+    <link rel="stylesheet" href="../css/style_meow.css">
+    <link rel="icon" href="../assets/img/favicon_paw.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1> Pannello di Controllo del Diffusore di Imbarazzo Felino (DIF)</h1>
+        <h2>Operazione: "Mondo in Pigiama" - LIVELLO DI MINACCIA: ROSSO (come un puntatore laser)</h2>
+    </header>
+
+    <main class="main_scratching_post_interface">
+        <section id="upload_module">
+            <h3>Caricamento Nuove Prove Compromettenti</h3>
+            <p>Seleziona le foto più imbarazzanti dei leader mondiali. Ricorda: più l'acconciatura è datata, meglio è!</p>
+            <form id="form_upload_photos" action="../php/upload_kitten_handler.php" method="post" enctype="multipart/form-data">
+                <div>
+                    <label for="leader_name_input">Nome Leader (o Codice Gattaro):</label>
+                    <input type="text" id="leader_name_input" name="leader_name" placeholder="Es: Presidente Pasticcio Von Paperoga" required>
+                </div>
+                <div>
+                    <label for="photo_file_input">File Foto Imbarazzante (max 9MB, per non appesantire i server):</label>
+                    <input type="file" id="photo_file_input" name="embarrassing_photo" accept="image/jpeg, image/png, image/gif" required>
+                </div>
+                <div>
+                    <label for="embarrassment_level_select">Livello di Imbarazzo (Scala Richter Felina):</label>
+                    <select id="embarrassment_level_select" name="embarrassment_level">
+                        <option value="1">1 - Sorrisetto appena accennato</option>
+                        <option value="5">5 - Risatina sotto i baffi</option>
+                        <option value="9" selected>9 - Rischio scompiscio collettivo!</option>
+                        <option value="10_chairman_special">10+ - Livello Chairman Meow (Richiede Approvazione Superiore)</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="photo_description_textarea">Breve descrizione della nefandezza:</label>
+                    <textarea id="photo_description_textarea" name="photo_description" rows="3" placeholder="Es: Anni '80, capelli cotonati, ballo imbarazzante..."></textarea>
+                </div>
+                <button type="submit" class="button_meow">Carica la Vergogna!</button>
+            </form>
+            <div id="upload_status_purr" class="status_purr_message" style="display:none;"></div>
+        </section>
+
+        <hr style="border-color: #FFD700; border-style: dashed;">
+
+        <section id="diffusion_scheduler_module">
+            <h3>Pianificatore di Diffusione Globale</h3>
+            <p>Seleziona i target e imposta l'ora X per la "Pandemia Pelosa".</p>
+            <p><em>(Modulo attualmente in manutenzione... KernelCat sta cercando di capire come far funzionare il timer con l'ora legale felina)</em></p>
+            <button id="btn_manual_override_chairman" class="button_meow" style="background-color: red; color: white;">ATTIVA OVERRIDE CHAIRMAN MEOW (PERICOLOSO!)</button>
+        </section>
+
+        <div id="loading_cat_animation"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gattari Globali - Tutti i diritti (e i torti) riservati. Viva i Gatti, Abbasso i Cani (e i politici noiosi).</p>
+        <p>Questo pannello è stato testato su gatti di razza siberiana. Potrebbe non funzionare correttamente con i chihuahua.</p>
+    </footer>
+
+    <script src="../js/dif_interface_purr.js"></script>
+</body>
+</html>
