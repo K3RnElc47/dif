@@ -1,0 +1,27 @@
+# File di configurazione locali e segreti del Chairman Meow
+config_chairman.php
+secret_catnip_stash.ini
+*.local_settings
+
+# Log di debug (troppo noiosi, contengono solo lamenti umani)
+debug.log
+error_log.txt
+*.human_errors
+
+# Dipendenze installate localmente (ognuno si gestisca i propri gomitoli)
+/vendor/
+/node_meowdules/
+
+# File specifici dell'IDE (i gatti usano editor di testo puri, ovviamente)
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# File generati dal sistema operativo (spazzatura, come i peli sul divano nuovo)
+.DS_Store
+Thumbs.db
+
+# Assolutamente nessun file .dog o relativo ai cani! Bleah!
+*.dog
+dog_treats_recipe.txt
