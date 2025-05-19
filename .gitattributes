@@ -1,0 +1,12 @@
+# Gestione fine riga - i gatti preferiscono la consistenza LF!
+* text=auto eol=lf
+
+# I file binari devono essere trattati come tali, specialmente le nostre preziose GIF imbarazzanti
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
+
+# I file di configurazione segreti non devono mai essere convertiti
+secret_config.meow -text
