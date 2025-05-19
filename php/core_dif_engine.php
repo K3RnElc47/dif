@@ -125,8 +125,6 @@ class DiffusoreImbarazzoFelinoEngine {
             // echo $logEntry; // Potrebbe sporcare l'output, usiamo error_log per tutto per la demo
             error_log($logEntry);
         }
-
-        // TODO da KernelCat: Integrare con sistema di alerting "MiaoAlert" che invia notifiche al Chairman.
     }
 
     public function __destruct() {
