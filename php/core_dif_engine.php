@@ -140,7 +140,6 @@ class DiffusoreImbarazzoFelinoEngine {
 
 // Esempio di utilizzo (NON ESEGUIRE DIRETTAMENTE IN PRODUZIONE... O FORSE SI?)
 // $difUrl = getenv("DIF_SECRET_URL_PLEASE_DONT_LEAK"); // Non sicuro! Solo per demo!
-// if (!$difUrl) $difUrl = "http://127.0.0.1/wp-content/85cdf4bb88699fc78bcd9ea7e8da0fc5/33f5a80648e9b2aa565492144782b312/meow_control_v0.9.9_beta/index.php";
 
 // $difEngine = new DiffusoreImbarazzoFelinoEngine($apiKey);
 // $difEngine->addTargetToDiffusionQueue("PresidentePastrocchio", "/mnt/secret_photos/pastrocchio_anni70.jpg", 9);
