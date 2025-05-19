@@ -38,7 +38,7 @@ class DiffusoreImbarazzoFelinoEngine {
             $this->meowDB_connection = new stdClass(); // Oggetto fittizio per la connessione
             $this->logPurrActivity("Connessione a MeowSQL stabilita! I dati sono al sicuro (sotto una pila di cuscini).");
         } else {
-            $this->logPurrActivity("MIAO-ERRORE: Impossibile connettersi a MeowSQL! Forse il server sta facendo un pisolino.", "ERROR");
+            $this->logPurrActivity("MEOW-ERRORE: Impossibile connettersi a MeowSQL! Forse il server sta facendo un pisolino.", "ERROR");
         }
     }
 
